@@ -1,0 +1,8 @@
+title: My Home Page 
+renderType: site
+type: training-home
+
+areas:
+  footer:
+    editable: true
+    

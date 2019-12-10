@@ -1,0 +1,43 @@
+dialog: my-own-modules:pages/default
+templateScript: my-own-modules/templates/pages/defaultPageScript.ftl
+ 
+areas:
+  main:
+    type: list
+    availableComponents:
+      textImage:
+        id: training-templating-foundation:components/textImage
+      teaser:
+        id: training-templating-foundation:components/teaser
+  slider:
+    type: list
+    availableComponents:
+      slider:
+        id: my-own-modules:components/slider
+  aboutUs:
+    type: list
+    availableComponents:
+      aboutUs:
+        id: my-own-modules:components/aboutUs
+  features:
+    type: list
+    availableComponents:
+      features:
+        id: my-own-modules:components/features
+  footer:
+    type: list
+    templateScript: /my-own-modules/templates/pages/areas/footerArea.ftl
+    availableComponents:
+      textImage:
+        id: training-templating-foundation:components/textImage
+      teaser:
+        id: training-templating-foundation:components/teaser
+    maxComponents: 5
+    editable: false
+    inheritance:
+      enabled: true
+      components: all
+  navigation:
+    type: noComponent
+    createAreaNode: false
+    templateScript: /my-own-modules/templates/pages/areas/navigationArea.ftl

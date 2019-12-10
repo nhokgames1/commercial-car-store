@@ -1,0 +1,4 @@
+title: List feature
+renderType: freemarker
+dialog: my-own-modules:components/features
+templateScript: /my-own-modules/templates/components/features.ftl

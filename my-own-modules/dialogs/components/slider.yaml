@@ -1,0 +1,55 @@
+form:
+  label: Slider
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: listSliderShow
+          fieldType: multiValue
+          label: List Slideshow
+          transformerClass: info.magnolia.ui.form.field.transformer.multi.MultiValueSubChildrenNodePropertiesTransformer
+          field:
+            name: compositeField
+            fieldType: collapsibleComposite
+            label: Collapse
+            layout: vertival
+            transformerClass: info.magnolia.ui.form.field.transformer.composite.NoOpCompositeTransformer
+            class: info.magnolia.editor.app.field.CollapsibleCompositeFieldDefinition
+
+            fields:
+              - name: title
+                fieldType: text
+                label: Title
+                description: Put a title
+
+              - name: image
+                fieldType: link
+                label: Image
+                targetWorkspace: dam
+                appName: assets
+                identifierToPathConverter:
+                  class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+                contentPreviewDefinition:
+                  contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+                  
+              - name: header
+                fieldType: text
+                label: Header
+                description: Put a description
+
+              - name: description
+                fieldType: richText
+                label: Description
+              
+              - name: link
+                fieldType: text
+                label: Put your link here
+                
+          
+actions:
+  commit:
+    label: save changes
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    label: cancel
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
