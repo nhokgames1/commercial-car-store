@@ -1885,7 +1885,12 @@ img {
 #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
   height: 500px;
 }
-
+.w-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20% !important;
+          flex: 0 0 20% !important;
+  max-width: 20%;
+}
 /*==================
  ERROR PAGE
 ====================*/

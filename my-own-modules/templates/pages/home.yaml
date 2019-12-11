@@ -1,0 +1,4 @@
+title: Home Page
+renderType: freemarker
+# dialog: training-templating-foundation:pages/first
+templateScript: /my-own-modules/templates/pages/home.ftl
