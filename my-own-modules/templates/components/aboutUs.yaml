@@ -1,4 +1,0 @@
-title: About Us
-renderType: freemarker
-dialog: my-own-modules:components/aboutUs
-templateScript: /my-own-modules/templates/components/aboutUs.ftl

@@ -1,4 +1,0 @@
-title: Slider
-renderType: freemarker
-dialog: my-own-modules:components/slider
-templateScript: /my-own-modules/templates/components/slider.ftl
