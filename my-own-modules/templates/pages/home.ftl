@@ -56,27 +56,27 @@
 			
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="">
+					<img class="d-block img-fluid" src="https://honda4banh.vn/wp-content/uploads/2019/08/header-model-img-1920x890-cr-v.jpg" alt="">
 					<div class="carousel-caption d-none d-md-block">
 						<h1>Mountain</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="https://s19.postimg.cc/lmubh3h0j/slide2.jpg" alt="">
+					<img class="d-block img-fluid" src="https://honda4banh.vn/wp-content/uploads/2019/08/header-model-img-1920x890-cr-v.jpg" alt="">
 					<div class="carousel-caption d-none d-md-block">
-						<h3>Mountain</h3>
+						<h3>CRV </h3>
+						<p>Mô tả xe</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="https://honda4banh.vn/wp-content/uploads/2019/08/header-model-img-1920x890-cr-v.jpg" alt="">
+					<div class="carousel-caption d-none d-md-block">
+						<h3>HONDA HR-V 2019</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="https://s19.postimg.cc/99hh9lr5v/slide3.jpg" alt="">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Mountain</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="https://s19.postimg.cc/nenabzsnn/slide4.jpg" alt="" class="d-block img-fluid">
+					<img src="https://honda4banh.vn/wp-content/uploads/2019/08/header-model-img-1920x890-cr-v.jpg" alt="" class="d-block img-fluid">
 					<div class="carousel-caption d-none d-md-block">
 						<h3>Mountain</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
@@ -135,8 +135,8 @@
   <div class="col-sm-6 col-lg-3">
      <div class="col medium-4 small-6 large-3" id="d_x">
                 <a href="/dong-xe"><div class="col-inner">
-                  <p class="d_x">ALL</p>
-				    <h2>Xem tất cả</h2>
+                  <p class="d_x">HONDA</p>
+				    <h2>Hãng HONDA</h2>
 				</div></a></div>  
   </div>
   <div class="col-sm-6 col-lg-3">
