@@ -1,0 +1,11 @@
+title: Test
+renderType: freemarker
+dialog: my-own-modules:pages/text
+templateScript: /my-own-modules/templates/pages/test.ftl
+
+areas:
+  main:
+    type: list
+    availableComponents:
+      textImage:
+        id: my-own-modules:components/textImage

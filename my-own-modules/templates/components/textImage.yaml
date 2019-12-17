@@ -1,0 +1,4 @@
+title: Text and Image
+renderType: freemarker
+# dialog: training-templating-foundation:components/textImage
+templateScript: /my-own-modules/templates/components/textImage.ftl

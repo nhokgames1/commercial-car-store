@@ -1,0 +1,6 @@
+areas:
+  main:
+    type: list
+    availableComponents:
+      textImage:
+        id: training-templating-foundation:components/textImage

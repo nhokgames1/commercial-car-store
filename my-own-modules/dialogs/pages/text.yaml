@@ -1,0 +1,24 @@
+form:
+  label: First Page Dialog
+  tabs:
+    - name: tabMain
+      label: Page Content
+      fields:
+ 
+        - name: title
+          fieldType: text
+          label: Page Title
+          description: Define the Page's title.
+ 
+        - name: abstract
+          fieldType: text
+          label: Test
+          description: Add an Abstract of the Page.
+ 
+actions:
+  commit:
+    label: save changes
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    label: cancel
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
